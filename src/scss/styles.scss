@@ -6,6 +6,14 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+$theme-colors: (
+  "primary": gray
+);
+
+@import 'base';
+@import 'main';
+@import 'nav'; 
+
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
