@@ -14,8 +14,14 @@ div.image {
   width: 20%;
   height: 20%; }
 
+h3.title {
+  font-family: 'Raleway', sans-serif; }
+
 p {
   margin-right: 50px; }
+
+footer {
+  background-color: lightgray; }
 
 .underline-on-hover:hover {
   text-decoration: underline; }
