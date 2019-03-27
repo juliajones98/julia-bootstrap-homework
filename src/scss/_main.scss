@@ -1,8 +1,24 @@
 
-.jumbotron {
+/*.jumbotron {
   background-image: url(/media/pirate-ship.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center bottom; //close enough?
+}*/
+
+.jumbotron {
+  background: url(/media/pirate-ship.jpg) no-repeat fixed center;
+  object-fit: cover;
+  font-family: 'Germania One', cursive;
+}
+
+
+div.image {
+  content:url(/media/pirate.jpg);
+  width: 20%;
+  height: 20%;
+}
+
+p {
+  margin-right: 50px;
 }
