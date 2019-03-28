@@ -12,6 +12,9 @@
 h3.title, footer {
   font-family: 'Raleway', sans-serif; }
 
+h4.lead {
+  color: lightblue; }
+
 p {
   margin-right: 50px; }
 
