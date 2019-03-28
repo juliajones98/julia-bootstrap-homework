@@ -7,16 +7,9 @@
 }*/
 
 .jumbotron {
-  background: url(/media/pirate-ship.jpg) no-repeat fixed center;
-  object-fit: cover;
+  background: url(/media/pirate-ship.jpg) no-repeat fixed center bottom;
+  background-size: cover;
   font-family: 'Germania One', cursive;
-}
-
-
-div.image {
-  content:url(/media/pirate.jpg);
-  width: 20%;
-  height: 20%;
 }
 
 h3.title, footer {
@@ -29,8 +22,20 @@ p {
 
 footer {
   background-color: lightgray;
+  margin-top: 20px;
 }
 
 h5.subhead {
   margin-bottom: 20px;
 }
+
+.carousel {
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  max-height: auto;
+} 
