@@ -19,7 +19,7 @@ div.image {
   height: 20%;
 }
 
-h3.title {
+h3.title, footer {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -29,4 +29,8 @@ p {
 
 footer {
   background-color: lightgray;
+}
+
+h5.subhead {
+  margin-bottom: 20px;
 }

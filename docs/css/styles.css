@@ -14,7 +14,7 @@ div.image {
   width: 20%;
   height: 20%; }
 
-h3.title {
+h3.title, footer {
   font-family: 'Raleway', sans-serif; }
 
 p {
@@ -22,6 +22,9 @@ p {
 
 footer {
   background-color: lightgray; }
+
+h5.subhead {
+  margin-bottom: 20px; }
 
 .underline-on-hover:hover {
   text-decoration: underline; }
