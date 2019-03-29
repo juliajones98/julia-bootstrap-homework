@@ -15,8 +15,12 @@ h3.title, footer {
 h4.lead {
   color: lightblue; }
 
-p {
-  margin-right: 50px; }
+/*p {
+  margin-right: 50px;
+}*/
+div.row {
+  padding-left: 50px;
+  padding-right: 50px; }
 
 footer {
   background-color: lightgray;
